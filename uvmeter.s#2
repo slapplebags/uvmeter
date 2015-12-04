@@ -3228,6 +3228,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="22.86" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <junction x="22.86" y="83.82"/>
 </segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="17.78" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
+<label x="76.2" y="17.78" size="1.778" layer="95"/>
+<junction x="86.36" y="17.78"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -3407,11 +3413,18 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="106.68" y="53.34"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="TR" class="0">
 <segment>
 <pinref part="U2" gate="U1" pin="TR"/>
 <wire x1="-5.08" y1="63.5" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-5.08" y="63.5"/>
+<label x="-15.24" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
+<label x="99.06" y="17.78" size="1.778" layer="95"/>
+<junction x="93.98" y="17.78"/>
 </segment>
 </net>
 <net name="N$5" class="0">
